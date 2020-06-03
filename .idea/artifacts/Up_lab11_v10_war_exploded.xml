@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Up_lab11_v10:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/Up_lab11_v10_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Up_lab11_v10/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Up_lab11_v10" />
+          <element id="module-output" name="ClubDB" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="sqlite-jdbc-3.7.2" />
+        </element>
+      </element>
+      <element id="module-source" name="ClubDB" />
+    </root>
+  </artifact>
+</component>
